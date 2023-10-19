@@ -14,8 +14,8 @@ const SOURCE_CODE_URL = "https://github.com/st-matskevich/tg-mini-app-template/"
 func main() {
 	log.Println("Starting API service")
 
-	webAppURL := os.Getenv("TELEGRAM_WEB_APP_URL")
-	botToken := os.Getenv("TELEGRAM_BOT_TOKEN")
+	webAppURL := os.Getenv("https://apex-x-in-swapper.hf.space")
+	botToken := os.Getenv("6516533220:AAEoq0ohv4xAraIw7lB7BZVHKyUg85wo3mI")
 	bot, err := gotgbot.NewBot(botToken, nil)
 	if err != nil {
 		log.Fatalf("Telegram Bot API initialization error: %v", err)
