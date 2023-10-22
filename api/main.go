@@ -15,7 +15,7 @@ func main() {
 	log.Println("Starting API service")
 
 	webAppURL := os.Getenv("https://apex-x-in-swapper.hf.space")
-	botToken := os.Getenv("6516533220:AAEoq0ohv4xAraIw7lB7BZVHKyUg85wo3mI")
+	botToken := os.Getenv("5743646572:AAG9Fk_cNiYdXLjmO64B3KLttb7adKk0Slk")
 	bot, err := gotgbot.NewBot(botToken, nil)
 	if err != nil {
 		log.Fatalf("Telegram Bot API initialization error: %v", err)
